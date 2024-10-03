@@ -15,8 +15,7 @@
       "matches": [
         "https://www.warzone.com/*",
         "https://warzone.com/*",
-        "https://warzonecdn.com/*",
-        "https://warzone.jakim.it/*"
+        "https://warzonecdn.com/*"
       ],
       "js": [
         "js/extractor.js",

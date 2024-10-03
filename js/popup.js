@@ -68,7 +68,7 @@ document.getElementById("gatherButton").addEventListener("click", function() {
             chrome.tabs.sendMessage(tabs[0].id, { action: "gather" }, (response) => {
                 if (chrome.runtime.lastError) {
                     console.error("Error:", JSON.stringify(chrome.runtime.lastError));
-                    alert("Failed to gather data. Reload the page (CTRL + F5) and try again.");
+                    alert("Failed to extract data. Set Warzone Idle as an active tab, reload the page (CTRL + F5) and try again.");
                 } else {
                     const statusArray = parseResponse(response);
                     statusArray.forEach(entry => {
