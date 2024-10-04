@@ -4,8 +4,7 @@
   "version": "0.1",
   "description": "Extracts data from the Warzone Idle game and opens the calculator.",
   "permissions": [
-    "activeTab",
-    "scripting"
+    "activeTab"
   ],
   "action": {
     "default_popup": "popup.html"
